@@ -22,6 +22,9 @@
 		        "sha3/sha2.c",
 		        "x16r.c",
             ],
+            "include_dirs": [
+                "<!(node -e \"require('nan')\")"
+            ],
             "cflags_cc": [
                 "-std=c++11"
             ],
