@@ -1,19 +1,19 @@
 {
-    "name": "node-x16r",
+    "name": "node-x21s",
     "version": "1.0.0",
-    "main": "nodex16r",
+    "main": "nodex21s",
     "author": {
-        "name": "Under"
+        "name": "Traysi Hylian"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/underdarkskies/node-x16r.git"
+        "url": "https://github.com/traysi/node-x21s.git"
     },
     "dependencies": {
         "bindings": "^1.3.0",
         "nan": "^2.6.2"
     },
     "keywords": [
-        "x16r"
+        "x21s"
     ]
 }
