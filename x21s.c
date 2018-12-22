@@ -43,7 +43,7 @@ enum Algo {
         SHA512,
         HASH_FUNC_COUNT
 };
-static void getAlgoString(const char* prevblock, char *output)
+static void getAlgoString(const uint8_t* prevblock, char *output)
 {
     strcpy(output, "0123456789ABCDEF");
 
