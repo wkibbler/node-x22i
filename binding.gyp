@@ -1,7 +1,7 @@
 {
     "targets": [
         {
-            "target_name": "nodex21s",
+            "target_name": "nodex22i",
             "sources": [
                 "multihashing.cc",
 		"sph/aes_helper.c",
@@ -27,6 +27,7 @@
 		"sph/sph_sha2big.c",
 		"sph/sph_sha2.c",
 		"sph/sponge.c",
+                "sph/SWIFFTX.c",
 		"sph/tiger.c",
 		"sph/whirlpool.c",
 	        "x21s.c",

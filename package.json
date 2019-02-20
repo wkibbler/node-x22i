@@ -1,19 +1,19 @@
 {
-    "name": "node-x21s",
+    "name": "node-x22i",
     "version": "1.0.0",
-    "main": "nodex21s",
+    "main": "nodex22i",
     "author": {
-        "name": "Traysi Hylian"
+        "name": "wkibbler"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/traysi/node-x21s.git"
+        "url": "https://github.com/wkibbler/node-x22i.git"
     },
     "dependencies": {
         "bindings": "^1.3.0",
         "nan": "^2.6.2"
     },
     "keywords": [
-        "x21s"
+        "x212i"
     ]
 }

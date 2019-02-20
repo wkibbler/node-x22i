@@ -1,1 +1,1 @@
-module.exports = require('bindings')('nodex21s.node')
+module.exports = require('bindings')('nodex22i.node')

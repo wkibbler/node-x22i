@@ -5,7 +5,7 @@
 #include "nan.h"
 
 extern "C" {
-    #include "x21s.h"
+    #include "x22i.h"
 
 }
 
@@ -16,7 +16,7 @@ extern "C" {
 using namespace node;
 using namespace v8;
 
-NAN_METHOD(x21s) {
+NAN_METHOD(x22i) {
 
     if (info.Length() < 1)
         return THROW_ERROR_EXCEPTION("You must provide one argument.");
@@ -31,13 +31,13 @@ NAN_METHOD(x21s) {
 
     uint32_t input_len = Buffer::Length(target);
 
-    x21s_hash(input, output, input_len);
+    x22i_hash(input, output, input_len);
 
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 }
 
 NAN_MODULE_INIT(init) {
-    Nan::Set(target, Nan::New("x21s").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(x21s)).ToLocalChecked());
+    Nan::Set(target, Nan::New("x22i").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(x22i)).ToLocalChecked());
 }
 
-NODE_MODULE(nodex21s, init)
+NODE_MODULE(nodex22i, init)
