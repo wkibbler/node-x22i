@@ -30,7 +30,7 @@
                 "sph/SWIFFTX.c",
 		"sph/tiger.c",
 		"sph/whirlpool.c",
-	        "x21s.c",
+	        "x22i.c",
             ],
             "include_dirs": [
                 "<!(node -e \"require('nan')\")"
