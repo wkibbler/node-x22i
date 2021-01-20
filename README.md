@@ -1,6 +1,6 @@
 node-x22i
 ===============
-Cryptocurrency hashing functions for SUQA
+NodeJS Binding for x22i hashing algorithm
 
 Current version v1.0.0
 Usage
